@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans:wght@400;700&display=swap');
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+
+.profile-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 0, 0.5); /* Light yellow shadow */
+}
+
+.inner-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.greeting1,
+.greeting2,
+.first-name,
+.last-name,
+.welcome-message-1,.welcome-message-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.greeting1 {
+    font-size: 6vh;
+    color: #fbfbfb; /* Dark grey */
+}
+.greeting2{
+    font-size: 6vh;
+    color: #34495e;
+}
+.first-name {
+    font-size: 6vh;
+    color: #3498db; /* Light blue */
+}
+
+.last-name {
+    font-size: 6vh;
+    color: #e67e22; /* Light orange */
+}
+
+.welcome-message-1 {
+    font-size: 4vh;
+    color: #bcbec0; /* Dark blue-grey */
+}
+.welcome-message-2 {
+    font-size: 4vh;
+    color: #34495e; /* Dark blue-grey */
+}
+
+.portfolio {
+    color: #d35400; /* Light orange */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px; /* Spacing between social media icons */
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.social-media img {
+    width: 30px; /* Size of social media icons */
+    height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-page {
+        margin-top: 10px;
+    }
+
+    .profile-image {
+        align-self: flex-start;
+        height: 180px;
+        width: 180px;
+        border-radius: 100px;
+        background-color: #f1c40f; /* Light yellow */
+    }
+
+    .img-container {
+        background-color: #f39c12; /* Light amber */
+        padding: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 100px;
+        padding-left: 180px;
+        align-self: flex-start;
+    }
+
+    .inner-home {
+        flex-direction: column;
+    }
+
+    .greeting {
+        font-size: 4.5vh;
+    }
+
+    .first-name {
+        font-size: 4.5vh;
+    }
+
+    .last-name {
+        font-size: 4.5vh;
+    }
+
+    .welcome-message {
+        font-size: 3vh;
+    }
+
+    .mb-2 {
+        margin-bottom: 1.5rem;
+    }
+
+    .mb-4 {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .home-page {
+        gap: 20px;
+    }
+
+    .img-container {
+        background-color: #74c1fd32; /* Light amber */
+        box-shadow: 0 0 10px rgba(236, 241, 220, 0.84);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 100px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .profile-image {
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        order: 0;
+    }
+
+    .profile-dt {
+        order: 1;
+        margin-top: 20px;
+    }
+
+    .greeting {
+        font-size: 4vh;
+    }
+
+    .first-name {
+        font-size: 4vh;
+    }
+
+    .last-name {
+        font-size: 4vh;
+    }
+
+    .welcome-message {
+        font-size: 2.5vh;
+    }
+}

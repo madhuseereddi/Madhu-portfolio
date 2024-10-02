@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://res.cloudinary.com/dx97khgxd/image/upload/v1715927029/geometric-abstract-background-with-connected-dots-lines_1409-1866_z3ghpi.avif");
+    background-size: cover;
+    background-attachment: fixed; /* Fixes the background */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden; /* Prevents body scrolling */
+    font-family: "Averia Gruesa Libre", system-ui;
+  }
+  
+  .skills {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow-y: auto; /* Enables scrolling */
+    height: 100vh; /* Ensures the container takes full viewport height */
+    box-sizing: border-box; /* Ensures padding doesn't affect the height */
+    border-bottom: 20px;
+    
+
+  }
+  .skills::-webkit-scrollbar{
+    display: nonenpm install react-icons
+;
+  }
+  
+  .list-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .skills2{
+    color: white;
+  }
+  
+
+  
+  .list-item2 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0 0 2px lightgray;
+    height: 200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .list-item1 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0 0 2px lightgray;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(71, 70, 70);
+  }
+  .list-item1 h3 , .list-item1 p{
+    color: white;
+  }
+  
+  .logo1 {
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+
+  .skillname {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+
+  .description {
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .skills1{
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+
+  .skills{
+    margin-bottom: 50px;
+  }
