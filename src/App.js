@@ -35,7 +35,7 @@ class App extends Component {
       <div className="full-bg" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <Router>
           <Header darkMode={darkMode} toggleTheme={this.toggleTheme} />
-  
+           
           <Routes>
             <Route path="/" element={<Home darkMode={darkMode} />} />
             <Route path="/Madhu-portfolio" element={<Home darkMode={darkMode} />} />
