@@ -35,13 +35,13 @@ class App extends Component {
       <div className="full-bg" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <Router>
           <Header darkMode={darkMode} toggleTheme={this.toggleTheme} />
+          <h2 style={{ color: darkMode ? 'white' : 'black' }}>Welcome to My Portfolio!</h2>
           <Routes>
-            <Route path="/"  element={<Home darkMode= {darkMode}/>} />
-            <Route exact path="/Madhu-Portfolio"  element={<Home darkMode= {darkMode}/>} />
-            <Route exact path="/about" element={<About darkMode= {darkMode}/>} />
-            <Route exact path="/projects" element={<Projects darkMode= {darkMode}/>} />
-            <Route exact path="/skills" element={<Skills darkMode= {darkMode}/>} />
-            <Route exact path="/feedback" element={<Feedback darkMode= {darkMode}/>} />
+            <Route path="/" element={<Home darkMode={darkMode} />} />
+            <Route path="/about" element={<About darkMode={darkMode} />} />
+            <Route path="/projects" element={<Projects darkMode={darkMode} />} />
+            <Route path="/skills" element={<Skills darkMode={darkMode} />} />
+            <Route path="/feedback" element={<Feedback darkMode={darkMode} />} />
           </Routes>
         </Router>
       </div>
