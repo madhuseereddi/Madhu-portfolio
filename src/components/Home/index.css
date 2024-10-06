@@ -5,8 +5,7 @@
     flex-direction: column;
     min-height: 100vh;
     margin-top: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
+
 }
 
 
@@ -37,28 +36,34 @@
 .greeting1 {
     font-size: 6vh;
     color: #fbfbfb; /* Dark grey */
+    margin-left: 10px;
 }
 .greeting2{
     font-size: 6vh;
     color: #34495e;
+    margin-left: 10px;
 }
 .first-name {
     font-size: 6vh;
     color: #3498db; /* Light blue */
+    margin-left: 10px;
 }
 
 .last-name {
     font-size: 6vh;
     color: #e67e22; /* Light orange */
+    margin-left: 10px;
 }
 
 .welcome-message-1 {
     font-size: 4vh;
     color: #bcbec0; /* Dark blue-grey */
+    margin-left: 10px;
 }
 .welcome-message-2 {
     font-size: 4vh;
     color: #34495e; /* Dark blue-grey */
+    margin-left: 10px;
 }
 
 .portfolio {
@@ -79,6 +84,7 @@
     gap: 10px; /* Spacing between social media icons */
     margin-top: 50px;
     flex-wrap: wrap;
+    margin-left: 10px;
 }
 
 .social-media img {
